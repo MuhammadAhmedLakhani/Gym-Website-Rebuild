@@ -33,6 +33,7 @@ h5 {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
+    color: #fff;
 }
 
 
@@ -167,10 +168,37 @@ ul {
     background-position: right;
 }
 
+/* banner section edns here */
 
-.left-btn>button {}
+/* red section starts here */
+
+#red-section {
+    background-color:#e80913 ;
+}
 
 
+.red-container {
+    padding:  40px;
+}
+
+
+
+#red-section h4 {
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* red section ends here */
 
 
 
