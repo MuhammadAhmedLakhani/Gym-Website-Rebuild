@@ -19,15 +19,43 @@ button {
     font-family: 'Poppins', sans-serif !important;
 }
 
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h3,
+h4,
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+
+
 p {
     font-family: 'Open Sans', sans-serif !important;
-
+    line-height: 1.8;
+    color: #111111;
+    font-size: 18px;
 }
 
 /* global styles*/
 
 button {
     border: none;
+    background-color: #e80913;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 46px 12px 45px;
+    color: #ffffff;
+    font-size: 16px;
 }
 
 
@@ -61,7 +89,7 @@ ul {
 
 
 .logo {
-    width: 50px; 
+    width: 50px;
     background-color: #fff;
     text-align: center;
     padding: 5px 0px;
@@ -88,8 +116,8 @@ ul {
 
 
 #toggle-icon {
-    background-color: rgb(255, 255, 255 , 0.5);
-    padding: 2px 5px ;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 2px 5px;
     display: none;
     font-size: 25px;
     color: #000;
@@ -117,8 +145,43 @@ ul {
 }
 
 
+/* header section ends here */
+
+/* banner section start here */
+
+.banner-container {
 
 
+    height: 80vh;
+    background: url("./images/banner-bg-image.jpg");
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+
+
+
+
+
+}
+
+
+.banner-heading>h1 {
+    color: #e80913;
+}
+
+.left-banner {
+    padding: 80px 40px;
+
+}
+
+
+/* .right-banner {
+    height: 80vh;
+    background: url("./images/banner-bg-image.jpg");
+    background-size: cover;
+    background-position: right;
+} */
 
 
 
@@ -128,9 +191,15 @@ ul {
 /* ----------------Mobile responsiveness  starts here------------ */
 
 @media(max-width:768px) {
+
+
+    /* header responsiveness start here */
+
+
+
     .header-container {
         flex-direction: column;
-         align-items: normal;
+        align-items: normal;
 
 
     }
@@ -166,23 +235,27 @@ ul {
 
 
 
-    .header-btn{
+    .header-btn {
         text-align: center;
     }
 
-
+    /* header responsivenesss ends here */
 
 
 
 }
 
 
-    /* tablet esponseiveness start here */
+/*---------- tablet esponseiveness start here */
 
 
 
 
 @media (min-width:769px) and (max-width:992px) {
+
+
+    /* header section responsiveness start here */
+
     .logo {
         width: 60%;
     }
