@@ -141,7 +141,7 @@ ul {
 
 #header-section button:hover {
     background-color: transparent !important;
-    color: #000;
+    color: #fff;
     border: 1px solid #fff;
 }
 
@@ -160,6 +160,10 @@ ul {
 
 }
 
+.left-btn button:hover {
+    background-color: #000;
+}
+
 
 .right-banner {
     height: 80vh;
@@ -173,12 +177,12 @@ ul {
 /* red section starts here */
 
 #red-section {
-    background-color:#e80913 ;
+    background-color: #e80913;
 }
 
 
 .red-container {
-    padding:  40px;
+    padding: 40px;
 }
 
 
@@ -189,17 +193,54 @@ ul {
 
 
 
-
-
-
-
-
-
-
-
-
 /* red section ends here */
 
+/* Gym section starts here */
+
+#gym-section {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("./images/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.gymcontainer {
+    padding: 80px 40px;
+}
+
+
+
+.gym-heading {
+    padding: 12px 46px 12px 45px;
+    background-color: #fff
+}
+
+.gym-heading>h1 {
+    font-size: 50px !important;
+
+}
+
+.gym-paragrapgh {
+    margin-top: 20px;
+}
+
+.gym-paragrapgh>p {
+    color: #fff;
+}
+
+
+.gym-btn {}
+
+
+
+
+
+
+
+
+/* Gym section ends here */
 
 
 /* ----------------Mobile responsiveness  starts here------------ */
@@ -255,8 +296,26 @@ ul {
 
     /* header responsivenesss ends here */
 
+    /* gym-section responsiveness starts here */
 
 
+    .gym-heading {
+        padding: 30px 20px;
+    }
+
+    .gym-heading>h1 {
+        font-size: 35px !important;
+    }
+
+    
+    .gymcontainer {
+        position: relative;
+        top: 20%;
+    }
+
+    #gym-section {
+        height: 120vh;
+    }
 }
 
 
