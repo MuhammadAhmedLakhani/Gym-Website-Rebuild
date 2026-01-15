@@ -149,22 +149,6 @@ ul {
 
 /* banner section start here */
 
-.banner-container {
-
-
-    height: 80vh;
-    background: url("./images/banner-bg-image.jpg");
-    background-size:contain;
-    background-position: right;
-    background-repeat: no-repeat;
-
-
-
-
-
-
-}
-
 
 .banner-heading>h1 {
     color: #e80913;
@@ -176,13 +160,15 @@ ul {
 }
 
 
-/* .right-banner {
+.right-banner {
     height: 80vh;
     background: url("./images/banner-bg-image.jpg");
     background-size: cover;
     background-position: right;
-} */
+}
 
+
+.left-btn>button {}
 
 
 
