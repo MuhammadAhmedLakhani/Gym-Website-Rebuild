@@ -293,6 +293,11 @@ ul {
 
 
 
+#workout-section {
+    background-color: #e5e5e5;
+}
+
+
 
 .workout-container {
     padding-left: 40px;
@@ -440,6 +445,7 @@ ul {
     /* next-level responsiveness ends here */
 
     /* Workout section responsiveness start here */
+
 
     .right-workout-container {
         bottom: 4%;
