@@ -33,7 +33,7 @@ h5 {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -45,6 +45,18 @@ p {
     color: #111111;
     font-size: 18px;
 }
+
+/* custom global classes */
+
+.margin-b {
+    margin-bottom: 30px;
+}
+
+.margin-t {
+    margin-top: 30px;
+}
+
+
 
 /* global styles*/
 
@@ -128,7 +140,7 @@ ul {
 #header-section li>a {
     display: block;
     padding: 10px 20px;
-    color: #000;
+    color: #fff;
     font-weight: 500;
 }
 
@@ -189,6 +201,7 @@ ul {
 
 #red-section h4 {
     font-weight: 500;
+    color: #fff;
 }
 
 
@@ -198,6 +211,7 @@ ul {
 /* Gym section starts here */
 
 #gym-section {
+    height: 90vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("./images/background-image.jpg");
     background-size: cover;
@@ -217,10 +231,6 @@ ul {
     background-color: #fff
 }
 
-.gym-heading>h1 {
-    font-size: 50px !important;
-
-}
 
 .gym-paragrapgh {
     margin-top: 20px;
@@ -231,16 +241,61 @@ ul {
 }
 
 
-.gym-btn {}
-
-
-
-
-
+.gym-btn>button :hover {
+    background-color: #000;
+}
 
 
 
 /* Gym section ends here */
+
+/* next-level starts here */
+
+
+
+.next-level-container {
+    padding: 80px 40px;
+
+}
+
+
+
+
+.next-level-heading>h1 {
+    font-size: 50px;
+}
+
+
+
+.gym-top-right-container>img {
+    width: 100%;
+}
+
+.gym-top-bottom-container1>img {
+    width: 100%;
+}
+
+.gym-top-bottom-container2>img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* next-level section ends here */
+
+
+
+
+
+
+
+
+
+
 
 
 /* ----------------Mobile responsiveness  starts here------------ */
@@ -294,6 +349,8 @@ ul {
         text-align: center;
     }
 
+
+
     /* header responsivenesss ends here */
 
     /* gym-section responsiveness starts here */
@@ -307,7 +364,7 @@ ul {
         font-size: 35px !important;
     }
 
-    
+
     .gymcontainer {
         position: relative;
         top: 20%;
@@ -316,6 +373,33 @@ ul {
     #gym-section {
         height: 120vh;
     }
+
+
+    
+    /* next-level responsiveness start here */
+
+
+    .gym-top-bottom-container1 {
+        margin-bottom: 30px;
+    }
+
+
+
+    .next-level-heading>h1 {
+        font-size: 30px;
+    }
+
+    .next-level-options p {
+        font-size: 13px;
+    }
+
+
+
+
+    /* next-level responsiveness ends here */
+
+
+
 }
 
 
@@ -336,5 +420,19 @@ ul {
     .logo>img {
         width: 61%;
     }
+
+
+    /* next-level responsiveness star here */
+
+
+
+    .next-level-heading>h1 {
+        font-size: 30px;
+    }
+
+    .next-level-options p {
+        font-size: 13px;
+    }
+
 
 }
