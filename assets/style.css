@@ -301,7 +301,7 @@ ul {
 
 
 .workout-container {
-    padding:40px 0px 0px  40px;
+    padding: 40px 0px 0px 40px;
 }
 
 
@@ -366,19 +366,21 @@ ul {
 }
 
 .inspiration-image {
-   aspect-ratio:1/1;
-   margin-bottom: 20px;
-   padding-top: 20px;
+    aspect-ratio: 1/1;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
+
 .inspiration-image img {
     width: 80%;
     height: 100%;
     object-fit: cover;
 }
+
 .inspiration-btn a {
     display: inline-block;
-    border-bottom:2px solid orange;
-    
+    border-bottom: 2px solid orange;
+
 }
 
 
@@ -507,6 +509,19 @@ ul {
     }
 
 
+    /* Inspiration section starts here */
+
+    .inspiration-container {
+        padding: 40px;
+    }
+
+    .inspiration-heading h1 {
+        font-size: 30px;
+    }
+
+    .inspiration-paragrapgh p {
+        padding: 20px 0;
+    }
 }
 
 
@@ -521,7 +536,7 @@ ul {
     /* header section responsiveness start here */
 
     .logo {
-        width: 60%;
+        width: 10%;
     }
 
     .logo>img {
@@ -570,6 +585,21 @@ ul {
         left: 28%;
     }
 
+    /* inspiration section starts here */
+
+
+    .inspiration-container {
+        padding: 40px 0;
+    }
+
+    .inspiration-paragrapgh p {
+        padding: 20px 0px;
+    }
+
+
+
+
+
 }
 
 /* ------------LAPTOP-RESPONSIVENESS START HERE */
@@ -601,4 +631,13 @@ ul {
     .right-workout-container {
         bottom: 40%;
     }
+
+
+    /* inspiration section starts here */
+
+    .inspiration-container {
+        padding: 40px 0;
+    }
+
+
 }
