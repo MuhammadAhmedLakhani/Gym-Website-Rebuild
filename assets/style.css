@@ -265,7 +265,13 @@ ul {
     font-size: 50px;
 }
 
+.next-level-options p {
+    font-size: 24px;
+}
 
+.next-level-options h4 {
+    font-size: 24px;
+}
 
 .gym-top-right-container>img {
     width: 100%;
@@ -375,7 +381,7 @@ ul {
     }
 
 
-    
+
     /* next-level responsiveness start here */
 
 
@@ -391,6 +397,11 @@ ul {
 
     .next-level-options p {
         font-size: 13px;
+    }
+
+
+    .next-level-options h4 {
+        font-size: 20px;
     }
 
 
@@ -421,6 +432,22 @@ ul {
         width: 61%;
     }
 
+    /* res-section responsiveness start here */
+
+
+    .options p {
+        font-size: 14px;
+    }
+
+
+
+    /* gym responsiveness start here */
+
+
+    .gym-heading h1 {
+        font-size: 40px;
+    }
+
 
     /* next-level responsiveness star here */
 
@@ -435,4 +462,32 @@ ul {
     }
 
 
+    .next-level-options h4 {
+        font-size: 20px;
+    }
+
+}
+
+
+/* ------------LAPTOP-RESPONSIVENESS START HERE */
+
+
+@media (min-width:992px) and (max-width:1200px) {
+
+    /* next-level responsiveness star here */
+
+
+
+    .next-level-heading>h1 {
+        font-size: 30px;
+    }
+
+    .next-level-options p {
+        font-size: 18px;
+    }
+
+
+    .next-level-options h4 {
+        font-size: 20px;
+    }
 }
