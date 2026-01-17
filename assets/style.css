@@ -650,6 +650,14 @@ ul {
 
 @media (min-width:992px) and (max-width:1200px) {
 
+
+    /* Global styles at laptop width */
+
+    h1 {
+        font-size: 40px;
+    }
+
+
     /* next-level responsiveness star here */
 
 
@@ -688,8 +696,8 @@ ul {
         padding: 40px;
     }
 
-    .app-heading > h1 {
-        font-size: 40px;
+    .store-btn img {
+        width: 35%;
     }
 
 }
