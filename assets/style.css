@@ -397,6 +397,11 @@ ul {
     margin-bottom: 60px;
 }
 
+.mobile-app-btn button {
+    background-color: #f6979c;
+    color: #e80913 
+}
+
 .store-btn span {
     aspect-ratio: 1/1;
 
@@ -576,6 +581,13 @@ ul {
 @media (min-width:768px) and (max-width:992px) {
 
 
+    /* gloibal styles at tablet level */
+
+    h1 {
+        font-size: 40px;
+    }
+
+
     /* header section responsiveness start here */
 
     .logo {
@@ -639,9 +651,27 @@ ul {
         padding: 20px 0px;
     }
 
+    /* app section responsiveness */
 
+    /* .app-container {
+        padding: 40px 0px;
+    } */
 
+    .store-btn img {
+        width: 25%;
+    }
 
+    .store-btn :nth-child(1) {
+        margin-right: 10px;
+    }
+
+    .app-description p {
+        margin-right: 90px;
+    }
+
+    .right-app-container {
+        height: 80vh;
+    }
 
 }
 
