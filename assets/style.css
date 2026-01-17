@@ -580,8 +580,13 @@ ul {
 
     /*App section responsiveness  */
 
+
+    .app-container {
+        padding: 40px;
+    }
+
     .store-btn img {
-        width: 70%;
+        width: 50%;
     }
 
     .store-btn :nth-child(1) {
