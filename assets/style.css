@@ -392,6 +392,7 @@ ul {
 .app-container {
     padding: 40px 80px;
 }
+
 .app-description {
     margin-bottom: 60px;
 }
@@ -404,12 +405,14 @@ ul {
 .store-btn img {
     width: 40%;
 }
-.left-app-parent{
+
+.left-app-parent {
     display: flex;
     align-items: center;
 }
+
 .right-app-container {
-    height:70vh;
+    height: 70vh;
     background: url("./images/app-right-image.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -679,5 +682,14 @@ ul {
         padding: 40px 0;
     }
 
+
+    /* App section starts here */
+    .app-container {
+        padding: 40px;
+    }
+
+    .app-heading > h1 {
+        font-size: 40px;
+    }
 
 }
