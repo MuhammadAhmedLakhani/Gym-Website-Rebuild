@@ -399,7 +399,7 @@ ul {
 
 .mobile-app-btn button {
     background-color: #f6979c;
-    color: #e80913 
+    color: #e80913
 }
 
 .store-btn span {
@@ -438,6 +438,13 @@ ul {
 /* ----------------Mobile responsiveness  starts here------------ */
 
 @media(max-width:768px) {
+
+
+    /* gloibal styles at tablet level */
+
+    h1 {
+        font-size: 30px;
+    }
 
 
     /* header responsiveness start here */
@@ -570,6 +577,19 @@ ul {
     .inspiration-paragrapgh p {
         padding: 20px 0;
     }
+
+    /*App section responsiveness  */
+
+    .store-btn img {
+        width: 70%;
+    }
+
+    .store-btn :nth-child(1) {
+        margin-bottom: 20px
+    }
+
+
+
 }
 
 
@@ -598,7 +618,12 @@ ul {
         width: 61%;
     }
 
-    /* res-section responsiveness start here */
+    .header-btn>button {
+        padding: 10px 10px !important;
+    }
+
+
+    /* red-section responsiveness start here */
 
 
     .options p {
