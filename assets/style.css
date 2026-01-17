@@ -387,6 +387,46 @@ ul {
 /* inspiration section ends here */
 
 
+/* App section starts here */
+
+.app-container {
+    padding: 40px 80px;
+}
+.app-description {
+    margin-bottom: 60px;
+}
+
+.store-btn span {
+    aspect-ratio: 1/1;
+
+}
+
+.store-btn img {
+    width: 40%;
+}
+.left-app-parent{
+    display: flex;
+    align-items: center;
+}
+.right-app-container {
+    height:70vh;
+    background: url("./images/app-right-image.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+
+
+
+
+/* App section ends here */
+
+
+
+
+
 /* ----------------Mobile responsiveness  starts here------------ */
 
 @media(max-width:768px) {
