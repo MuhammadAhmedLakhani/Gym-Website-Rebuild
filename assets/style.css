@@ -631,8 +631,9 @@ ul {
 }
 
 
-.right-booking ,.left-booking{
-    padding:10px 20px;
+.right-booking,
+.left-booking {
+    padding: 10px 20px;
 }
 
 
@@ -895,6 +896,30 @@ input::placeholder {
     .journey-image-container4 {
         margin-top: 0;
     }
+
+
+    .right-booking {
+        margin-bottom: 20px;
+    }
+
+    .left-booking-heading h2 {
+        font-size: 30px;
+    }
+
+    .booking-phone {
+        margin-top: 20px;
+    }
+
+    .booking-btn  {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .booking-btn button {
+        width: 100%;
+    }
+
 
 
 }
