@@ -27,6 +27,12 @@ h1 {
     line-height: 1.1;
 }
 
+h2 {
+    font-size: 35px !important;
+    font-weight: 600;
+}
+
+
 h3,
 h4,
 h5 {
@@ -43,7 +49,7 @@ p {
     font-family: 'Open Sans', sans-serif !important;
     line-height: 1.8;
     color: #111111;
-    font-size: 18px;
+    font-size: 16px;
     white-space: pre-line;
 }
 
@@ -213,7 +219,6 @@ ul {
 /* Gym section starts here */
 
 #gym-section {
-    height: 90vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url("./images/background-image.jpg");
     background-size: cover;
@@ -233,6 +238,9 @@ ul {
     background-color: #fff
 }
 
+.gym-heading h1 {
+    font-size: 60px;
+}
 
 .gym-paragrapgh {
     margin-top: 20px;
@@ -547,12 +555,54 @@ ul {
     border: 1px solid #fff;
 }
 
-
-
-
-
-
 /* trade-mill section ends here  */
+
+
+
+/* Journey section starts here   */
+
+#journey-section {
+    /* height: 90vh; */
+    background-color: #e5e5e5;
+}
+
+.journey-container {
+    padding: 40px 80px;
+}
+
+.left-journey {
+    height: 70vh;
+    background-image: url("./images/journey-left-image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.right-journey {
+    text-align: center;
+}
+
+.journey-contact {
+    margin-top: 30px;
+}
+.journey-contact span{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.journey-contact a {
+    border-bottom: 1px solid orange;
+}
+
+
+
+
+
+
+/* Journey section ends here   */
+
+
+
+
 
 
 /* ----------------Mobile responsiveness  starts here------------ */
