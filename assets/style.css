@@ -486,6 +486,7 @@ ul {
     color: #e80913;
     font-weight: 500;
 }
+
 .quotations-mark i {
     margin-top: 10px;
     transform: rotate(180deg);
@@ -783,6 +784,16 @@ ul {
         height: 80vh;
     }
 
+    /* membership responsiveness added */
+
+    .membership-container {
+        padding: 40px 0px;
+    }
+
+    .membership-card {
+        margin-bottom: 20px;
+    }
+
 }
 
 /* ------------LAPTOP-RESPONSIVENESS START HERE */
@@ -839,5 +850,13 @@ ul {
     .store-btn img {
         width: 35%;
     }
+
+    /* membership section responsiveness*/
+
+    .membership-container {
+        padding: 40px;
+    }
+
+
 
 }
