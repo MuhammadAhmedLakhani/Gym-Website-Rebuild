@@ -554,7 +554,7 @@ ul {
 #journey-section {
     /* height: 90vh; */
 
-    background: linear-gradient(to bottom ,#e5e5e5 0%  ,#e5e5e5 70% , #fff 70%, #fff 100%);
+    background: linear-gradient(to bottom, #e5e5e5 0%, #e5e5e5 70%, #fff 70%, #fff 100%);
     background-color: #e5e5e5;
 }
 
@@ -835,6 +835,24 @@ ul {
         margin-bottom: 30px;
     }
 
+
+    .journey-image-container1,
+    .journey-image-container2,
+    .journey-image-container3,
+    .journey-image-container4 {
+        min-height: 425px;
+    }
+
+    .journey-image-container3 {
+        margin-top: 0px;
+    }
+
+    .journey-image-container2 {
+        margin-top: 120px;
+    }
+    .journey-image-container4 {
+        margin-top: 120px;
+    }
 
 
 }
