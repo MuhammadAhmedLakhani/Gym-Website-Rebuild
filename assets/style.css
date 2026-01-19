@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    font-size: 35px !important;
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -412,6 +412,7 @@ ul {
 }
 
 .store-btn span {
+    margin-right: 10px;
     aspect-ratio: 1/1;
 
 }
@@ -584,7 +585,8 @@ ul {
 .journey-contact {
     margin-top: 30px;
 }
-.journey-contact span{
+
+.journey-contact span {
     font-weight: 500;
     font-size: 20px;
 }
@@ -812,6 +814,10 @@ ul {
     }
 
 
+    h2{
+        font-size: 40px !important;
+    }
+
     .container {
         padding: 40px 10px !important;
     }
@@ -917,6 +923,12 @@ ul {
         margin-bottom: 20px;
     }
 
+    /* jounney section responsiveness */
+
+    .left-journey{
+        margin-bottom: 30px;
+    }
+
 }
 
 /* ------------LAPTOP-RESPONSIVENESS START HERE */
@@ -930,6 +942,17 @@ ul {
     h1 {
         font-size: 40px;
     }
+
+    h2{
+        font-size: 40px;
+    }
+
+
+
+    .container {
+        padding: 40px 0px;
+    }
+
 
 
     /* next-level responsiveness star here */
