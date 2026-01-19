@@ -796,6 +796,21 @@ ul {
     .trade-mill-description {
         margin-bottom: 30px;
     }
+
+
+    /* jounney section responsiveness */
+
+
+    .journey-container {
+        padding: 40px;
+    }
+
+    .left-journey {
+        margin-bottom: 30px;
+    }
+
+
+
 }
 
 
@@ -814,7 +829,7 @@ ul {
     }
 
 
-    h2{
+    h2 {
         font-size: 40px !important;
     }
 
@@ -925,7 +940,7 @@ ul {
 
     /* jounney section responsiveness */
 
-    .left-journey{
+    .left-journey {
         margin-bottom: 30px;
     }
 
@@ -943,7 +958,7 @@ ul {
         font-size: 40px;
     }
 
-    h2{
+    h2 {
         font-size: 40px;
     }
 
