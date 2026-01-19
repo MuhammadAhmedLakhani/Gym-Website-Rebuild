@@ -22,7 +22,7 @@ button {
 
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 1.1;
 }
@@ -44,6 +44,7 @@ p {
     line-height: 1.8;
     color: #111111;
     font-size: 18px;
+    white-space: pre-line;
 }
 
 /* custom global classes */
@@ -498,22 +499,58 @@ ul {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
 /* memebership section ends here */
 
 
+/* trade-mill section starts here */
+
+#trade-mill {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("./images/next-level-bg-image.jpg");
+    background-position: top;
+    background-size: cover;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trade-mill-container {
+    text-align: center;
+}
+
+.trade-mill-heading  h1 {
+    color: #fff;
+}
+
+
+.trade-mill-description p {
+    color: #fff;
+    font-weight: 500;
+}
+
+.trade-mill-btns-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.trade-mill-btns-parent  :nth-child(1){
+    padding: 20px 30px;
+}
+.trade-mill-btns-parent :nth-child(2) button {
+    background-color: transparent !important;
+    border: 1px solid #fff;
+}
 
 
 
 
+
+
+/* trade-mill section ends here  */
 
 
 /* ----------------Mobile responsiveness  starts here------------ */
