@@ -674,6 +674,13 @@ ul {
         margin-bottom: 20px
     }
 
+    .membership-container {
+        padding: 40px;
+    }
+
+    .membership-card {
+        margin-bottom: 20px;
+    }
 
 
 }
