@@ -538,7 +538,7 @@ ul {
     gap: 20px;
 }
 
-.trade-mill-btns-parent :nth-child(1) {
+.trade-mill-btns-parent :nth-child(1) button {
     padding: 20px 30px;
 }
 
@@ -565,6 +565,7 @@ ul {
     h1 {
         font-size: 30px;
     }
+
 
 
     /* header responsiveness start here */
@@ -723,7 +724,26 @@ ul {
 
     /* trade mill section responsiveness */
 
+    #trade-mill {
+        height: 110vh;
+    }
 
+    .trade-mill-container {
+        padding: 40px;
+    }
+
+    .trade-mill-btns-parent {
+        flex-direction: column;
+    }
+
+    .trade-mill-btns-parent :nth-child(2) button {
+        padding: 15px 60px;
+
+    }
+
+    .trade-mill-description {
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -745,7 +765,7 @@ ul {
     .container {
         padding: 40px 10px !important;
     }
-    
+
 
     /* header section responsiveness start here */
 
