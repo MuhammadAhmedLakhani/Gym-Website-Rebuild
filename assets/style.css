@@ -521,7 +521,7 @@ ul {
     text-align: center;
 }
 
-.trade-mill-heading  h1 {
+.trade-mill-heading h1 {
     color: #fff;
 }
 
@@ -537,9 +537,11 @@ ul {
     align-items: center;
     gap: 20px;
 }
-.trade-mill-btns-parent  :nth-child(1){
+
+.trade-mill-btns-parent :nth-child(1) {
     padding: 20px 30px;
 }
+
 .trade-mill-btns-parent :nth-child(2) button {
     background-color: transparent !important;
     border: 1px solid #fff;
@@ -719,6 +721,8 @@ ul {
         margin-bottom: 20px;
     }
 
+    /* trade mill section responsiveness */
+
 
 }
 
@@ -737,6 +741,11 @@ ul {
         font-size: 40px;
     }
 
+
+    .container {
+        padding: 40px 10px !important;
+    }
+    
 
     /* header section responsiveness start here */
 
@@ -899,6 +908,12 @@ ul {
 
     .membership-container {
         padding: 40px;
+    }
+
+    /* trade mill section responsiveness */
+
+    .trade-mill-heading h1 {
+        font-size: 50px !important;
     }
 
 
