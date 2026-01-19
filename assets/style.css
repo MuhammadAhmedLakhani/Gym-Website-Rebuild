@@ -234,7 +234,7 @@ ul {
 
 
 .gym-heading {
-    padding: 12px 46px 12px 45px;
+    padding: 12px 36px;
     background-color: #fff
 }
 
@@ -312,14 +312,16 @@ ul {
 }
 
 
+
 .right-workout-container {
     background-color: #fff;
-    padding: 50px 30px 100px;
+    padding: 50px 30px 60px;
     border: 2px solid #eee;
     position: relative;
-    bottom: 60%;
-    left: 50%;
+    bottom: 31%;
+    left: 70%;
 }
+
 
 
 
@@ -355,6 +357,10 @@ ul {
 }
 
 .inspiration-heading h2 {
+    color: #fff;
+}
+
+.inspiration-heading h1 {
     color: #fff;
 }
 
@@ -563,7 +569,7 @@ ul {
 }
 
 .left-journey {
-    height: 70vh;
+    min-height: 70vh;
     background-image: url("./images/journey-left-image.jpg");
     background-position: center;
     background-size: cover;
@@ -625,6 +631,46 @@ ul {
 }
 
 
+.right-booking ,.left-booking{
+    padding:10px 20px;
+}
+
+
+.booking-row {
+    margin-top: 100px;
+}
+
+.input-booking {
+    display: inline-block;
+}
+
+.input-booking input {
+    padding: 10px 90px 10px 10px;
+    background-color: #e5e5e5;
+    border: 0;
+    outline: 0;
+}
+
+/* input ::placeholder {
+    font-size: 10px 
+} */
+
+
+input::placeholder {
+    font-size: 12px;
+}
+
+.booking-btn button {
+    padding: 10px 30px;
+}
+
+.booking-btn {
+    display: inline-block;
+}
+
+.booking-phone {
+    margin-top: 60px;
+}
 
 /* Journey section ends here   */
 
@@ -641,7 +687,7 @@ ul {
     /* gloibal styles at tablet level */
 
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
 
@@ -835,11 +881,11 @@ ul {
         margin-bottom: 30px;
     }
 
-        .journey-image-container1,
+    .journey-image-container1,
     .journey-image-container2,
     .journey-image-container3,
     .journey-image-container4 {
-       margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     .journey-image-container2 {
