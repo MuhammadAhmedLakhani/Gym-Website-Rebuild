@@ -238,9 +238,6 @@ ul {
     background-color: #fff
 }
 
-.gym-heading h1 {
-    font-size: 60px;
-}
 
 .gym-paragrapgh {
     margin-top: 20px;
@@ -271,12 +268,8 @@ ul {
 
 
 
-.next-level-heading>h1 {
-    font-size: 50px;
-}
-
 .next-level-options p {
-    font-size: 24px;
+    font-size: 21px;
 }
 
 .next-level-options h4 {
@@ -328,10 +321,6 @@ ul {
     left: 50%;
 }
 
-.right-workout-container h1 {
-    font-size: 50px;
-}
-
 
 
 
@@ -365,7 +354,7 @@ ul {
 
 }
 
-.inspiration-heading h1 {
+.inspiration-heading h2 {
     color: #fff;
 }
 
@@ -418,7 +407,7 @@ ul {
 }
 
 .store-btn img {
-    width: 40%;
+    width: 30%;
 }
 
 .left-app-parent {
@@ -470,7 +459,7 @@ ul {
 }
 
 .membership-card-heading h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -530,7 +519,7 @@ ul {
     text-align: center;
 }
 
-.trade-mill-heading h1 {
+.trade-mill-heading h2 {
     color: #fff;
 }
 
@@ -564,6 +553,8 @@ ul {
 
 #journey-section {
     /* height: 90vh; */
+
+    background: linear-gradient(to bottom ,#e5e5e5 0%  ,#e5e5e5 70% , #fff 70%, #fff 100%);
     background-color: #e5e5e5;
 }
 
@@ -596,7 +587,42 @@ ul {
 }
 
 
+.journey-row-2 {
+    margin-top: 100px;
+}
 
+.journey-image-container1 {
+    min-height: 330px;
+    background-image: url("./images/inspiration-image3.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.journey-image-container2 {
+    margin-top: 50px;
+    min-height: 330px;
+    background-image: url("./images/journey-image2.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.journey-image-container3 {
+    min-height: 330px;
+    background-image: url("./images/chest-image.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.journey-image-container4 {
+    margin-top: 50px;
+    min-height: 330px;
+    background-image: url("./images/inspiration-image1.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 
